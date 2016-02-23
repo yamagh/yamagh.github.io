@@ -7,11 +7,11 @@
 
 # Site settings
 title: yamagh
-email: hiroyuki.yamagami@gmail.com
+email: yamagh@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  愛媛のSIerではたらくしがないエンジニア。好きな言語は Ruby。
+  そのほかいろいろ。競技プログラミング(yukicoder, paiza, code-iq), 写真(Sony 
+  Nex-3N, Theta S), House Music, Podcast(Backspace.fm, rebuild.fm ...)。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: _yama
