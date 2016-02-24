@@ -5,8 +5,12 @@ date:   2016-02-14 17:57:11 +0900
 categories: jekyll update
 ---
 
+<<<<<<< HEAD
 ![Theta S](https://lh3.googleusercontent.com/AgtII_QVqlAdB8hoy3-VjHkIEQQBh7OG8Z2UF9F46q1MgGSgpzGlHzrt91mLY1_yA93OqNm1qB7_aQ=w152-h446-no)  
 
+=======
+![Theta S](https://lh3.googleusercontent.com/AgtII_QVqlAdB8hoy3-VjHkIEQQBh7OG8Z2UF9F46q1MgGSgpzGlHzrt91mLY1_yA93OqNm1qB7_aQ=w152-h446-no)
+>>>>>>> b33ac9363980c19e66c7cd316fbbe65af71a3453
 2015年10月23日に発売された RICOH の [Theta S](https://theta360.com/ja/about/theta/s.html) を購入しました！
 発売されて既に4ヶ月も経ってるので今更感もありますが自分の中の記念にと書き留めておきます。
 
