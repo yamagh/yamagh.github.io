@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "HTC Desire 626"
+date:   2015-10-18 17:37:13 +0900
+categories: gadget
+---
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-NNwnMr3V_nk/ViMj0jeHR-I/AAAAAAAAPYo/rhuj8_AV2FI/s1024/IMG_1271.JPG" itemprop="image"></span>
+
+今までSoftbankでiPhone5を使ってきたのですが、そろそろMVNOに変えたいなと思いここ最近はSIMフリーの電話を買うタイミングを計ってきました。
+先月末にiPhone6s/Plusが発売された時にこれにするかとも思ったけれどいかんせん値段が高い。電話に１０万円も掛けれません。
+そもそも今の生活でスマホの性能を出し切るような使い方をしてないのでiPhoneなんかは完全にオーバースペックです。
+
+次に検討したのがNexus5X/6Pですが値段的には手ごろな感じがして予約までしたけど、円安のせいなのかスペックの割に割高感が気になって予約キャンセル。
+
+最終的にはコスパ重視で HTC Desire 626 を購入しました。
+
+3万円ぐらいのスマホなのであまり期待はしてなかったのですが、ハード的にチープな感じはなくてむしろいい感じです。
+思っていたよりも所有欲が満たされる端末でした。
+

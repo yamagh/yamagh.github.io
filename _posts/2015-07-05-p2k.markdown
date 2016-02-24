@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Pocket の記事を Kindle に送る"
+date:   2015-07-05 19:12:46 +0900
+categories: Pocket kindle
+---
+
+今回、Kindleを購入した理由の一つがWebの記事を直接Kindleに送れるからです。
+普段Webの記事の管理にはPocketを利用しているのですが、PocketからKindleに記事を送れる **[P2K](https://p2k.co)** というサービスを利用してみました。
+
+[https://p2k.co:embed:cite]
+
+***
+
+## 設定手順
+
+1.**[P2K (https://p2k.co)](https://p2k.co)** を開いて **"Start Delivering!"** をクリックします。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-sTwtMqDDNnk/VZjxvAftpmI/AAAAAAAAO24/qviBgLCScQo/s1024/01.png" itemprop="image"></span>
+
+2.Pocketの記事へのアクセス認証画面が出るので **"認可"** をクリックします。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-AXJ3DH3vSEo/VZjxvLYBrqI/AAAAAAAAO24/HetK588lY7g/s1024/02.png" itemprop="image"></span>
+
+3.配信方法と送る記事の設定をして **"Start Delivery"** をクリックします。
+
+配信方法は **毎日** または **毎週** 決まった時間に送る方法とスケジューリングせずに一度きり送る方法が選べるようです。
+送る記事は指定した記事数を送る方法の他に **読むのに掛かるおよその時間** を指定する事が出来るみたいです。これはなかなかステキですね。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-LHT787qy0ME/VZjxvOeJbCI/AAAAAAAAO24/MjZTnmk_yWs/s1024/03.png" itemprop="image"></span>
+
+4.記事の配信先となるKindleのメールアドレスの設定をします。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-9ff0A9jUsMI/VZjxvJGxQMI/AAAAAAAAO24/u6NMRDDHXaI/s1024/04.png" itemprop="image"></span>
+
+わざわざ日本語にする必要も無いかもしれませんがこんな感じですね。
+
+> 1. Kindleの "コンテンツと端末の管理" ページを開く
+> https://www.amazon.co.jp/mycd
+> 
+> 2. "設定" タブを開いて "パーソナル・ドキュメント設定" の中の "承認済みEメールアドレス一覧" に次のメールアドレスを追加する。
+> delivery@p2k.co
+> 
+> 3. "Send-to-Kindle Eメールアドレスの設定" にある Kindle に配信するためのメールアドレスを下に入力する。
+
+設定後のAmazonの画面の方はこんな感じです。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-032yXOFepaU/VZj7qp6U7uI/AAAAAAAAO4g/WUo1jKyWHig/s1024/06.png" itemprop="image"></span>
+
+5.完了
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-UmHyskT5RBM/VZkCyg9IdJI/AAAAAAAAO5c/0f_SYV499V8/s1024/05.png" itemprop="image"></span>
+
+## Kindleで読んでみる
+
+今回試しに **15分** 分の記事を指定して送ってみました。
+
+***
+
+本文です。普段Pocketが読みやすくしてくれているのと同じなので全く問題ないですね。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-s8huaNEguuY/VZjzvxjSQRI/AAAAAAAAO34/jHRNbpVEwuY/s1024/screenshot_2015_07_05T17_56_10%252B0900.png" itemprop="image"></span>
+
+表紙です。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-kiIyRNL_vgc/VZjzvyyrgnI/AAAAAAAAO34/wOBluhDhDYw/s1024/screenshot_2015_07_05T17_56_47%252B0900.png" itemprop="image"></span>
+
+目次も付いてて記事の移動もラクラクです。
+
+<span itemtype="http://schema.org/Photograph" itemscope="itemscope"><img class="magnifiable" src="https://lh3.googleusercontent.com/-B1Zdx0ayfJg/VZjzv5XZtuI/AAAAAAAAO34/PDoFvSdC8yo/s1024/screenshot_2015_07_05T17_56_50%252B0900.png" itemprop="image"></span>
+
+***
+
+## 使ってみて
+
+なかなか便利なサービスです。
+寝る前のPC/スマホのディスプレイの光は体に悪いと言いますがKindleなら気にせず寝落ちするまで記事が読めるので、だいぶ溜まってる未読記事をこれで消化していきたいですね。
+
+
