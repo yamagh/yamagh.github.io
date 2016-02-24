@@ -11,7 +11,7 @@ categories: food update
 $ rails generate helper hoge
 Running via Spring preloader in process 4787
       create  app/helpers/hoge_helper.rb
-            invoke  test_unit
+      invoke  test_unit
 ```
 ↑`test/helpers/hoge_helpers_test.rb` を作って欲しいが作ってくれない...
 
@@ -22,9 +22,9 @@ require 'test_helper'
 
 class HogeHelperTest < ActionView::TestCase
   test "should work" do
-      assert_equal "result", your_helper_method
-        end
-        end
+    assert_equal "result", your_helper_method
+  end
+end
 ```
 
 `app/helpers/hoge_helper.rb` と  
