@@ -28,6 +28,6 @@ analytics :
   provider : google
   google : 
     tracking_id : 'UA-51327309-5'
-  getclicky :
-    site_id :
+#  getclicky :
+#    site_id :
 
