@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "FizzBuzz"
+date:   2015-01-24 19:33:29 +0900
+categories: 競技プログラミング
+---
+[やっぱり日本は強かった！ 若き競技プログラマーが上海で世界トップレベルのアジア決勝戦を制す](http://www.gizmodo.jp/2015/01/code_festival_asia_final.html:embed)
+
+この記事見てたら競技プログラミングの世界に興味がムクムク出てきた。
+試しに何か書いてみたな―ということで FizzBuzz 書いてみた。
+
+<iframe src="https://paiza.io/projects/e/wx79bD-KqbUZJkRuGfAD7A?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
+
+FizzBuzzといえばプログラミング初心者の練習問題という感じだけど今までやってみたこと無かったな。
+
+もうちょっと本格的な問題ないかなっ思って探して見たらオンラインでコンテストやってるサイトに色々と転がってる。
+
+[Aizu Online Judge](http://judge.u-aizu.ac.jp/onlinejudge/index.jsp)
+
+パズル解く感じでしばらくやってみようかな。  
+ゆくゆくはコンテストにも参加してみたい。
