@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "nokogiri 1.6.6.2 インストールエラー"
+date:   2015-02-22 01:29:23 +0900
+categories: Ruby
+---
+`gem install nokogiri` で失敗。
+何でかなと思ってググってみたらGithubのIssue発見。
+
+[OSX install problem (1.6.5, 1.6.6.2)](https://github.com/sparklemotion/nokogiri/issues/1231)
+
+`--use-system-libraries` を使って入れるらしい。
+
+システムに libxslt と libxml2 をインストールして
+
+```bash
+$ brew install libxslt
+$ brew install libxml2
+```
+
+nokogiri インストールする。
+
+```bash
+$ gem install nokogiri -- --use-system-libraries
+```
+
+しかしエラー・・・
+
+```bash
+ERROR:  Error installing nokogiri:
+	invalid gem: package is corrupt, exception while verifying: undefined method `size' for nil:NilClass (NoMethodError) in /Users/yamagh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/cache/nokogiri-1.6.6.2.gem
+```
+
+エラーを見るとパッケージが破損してるらしい。
+
+> package is corrupt
+
+```bash
+$ rm /Users/yamagh/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/cache/nokogiri-1.6.6.2.gem
+```
+
+で削除してから再インストール。
+
+```bash
+$ gem install nokogiri -- --use-system-libraries
+Fetching: nokogiri-1.6.6.2.gem (100%)
+Building native extensions with: '--use-system-libraries'
+This could take a while...
+Successfully installed nokogiri-1.6.6.2
+1 gem installed
+```
+
+無事完了。
+
