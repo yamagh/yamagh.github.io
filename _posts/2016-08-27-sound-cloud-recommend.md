@@ -18,3 +18,5 @@ categories: [Music SoundCloud]
 
 [jus chillin - ConsciousThoughts](http://consciousthoughts.bandcamp.com/album/jus-chillin)
 
+<iframe style="border: 0; width: 350px; height: 470px;" src="http://bandcamp.com/EmbeddedPlayer/album=1888671103/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://consciousthoughts.bandcamp.com/album/jus-chillin">jus chillin by ConsciousThoughts</a></iframe>
+
