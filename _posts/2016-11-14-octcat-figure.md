@@ -1,10 +1,10 @@
 layout: post
-title:  "Octcat (3inch) $B$N%U%#%.%e%"$r%2%C%H(B!"
+title:  "Octcat (3inch) のフィギュアをゲット!"
 date:   2016-11-14 23:55:00 +09:00:00
 categories: [#github ]
 
-Amazon $B$G%V%i%V%i$7$F$?$i(B Github $B$N(B Octcat $B$N%U%#%.%e%"$rH/8+!*(B
-$B$+$o$$$$$N$G;W$o$:%]%A$C$F$7$^$C$?!#(B
+Amazon でブラブラしてたら Github の Octcat のフィギュアを発見！
+かわいいので思わずポチってしまった。
 
 ![img01](https://lh3.googleusercontent.com/CoyZ3Q3wQhtAsagtSrfl4LVs4Y_I-v3XP9VRUGDoQVqxXA209erHY3TcABwBA8kZhZtdbflbL1psVoIQpdNPxBH4XlKvq8v2SnVGK_0WhBvwZm2ZJMhLSmhCtTCqnDqTQcS-VoZ6H7OawMUrS5qrt8nTSzUAPb6-4_gimHO8D01lMsNoNZb9bY4jCqYxsyXqeX5pe4YYO9w3IoWi83kv-GpzMuoEcrZYG7Z5tUCjHzycas_QmwtKXXN4o4_cpibYTzLGoZkPQXvnnbe9yciGILHqI6MAn5i8VfCbbntK-o9uSWRvdBLU0aKIYHOxixggiz9bkFXGH62GEn9ZdZUtxRxPVNRJ24UyW03Q4x5DP0MPodxxeNhpl5oUvYuRyd_UEp_9vMrgs2BYnOpxpvo_UXyJi-nUxpoHFueWDlnpimrCJNmSvdVTVS8CBUVRtD2hPs8OIbW2oLnXpquHAmYVlZzEH58J77GIWBI64NuyYR19__cgKmR3-IfmOc_2dYv4rj5YBtNB6I-4cNiRHBo1nxgelfKy6bA-Tmr0vAqH9kQpv6Jg9Z3x0KvG69cv6RBK9teVHa11GHd9KeGmAQGaybCFTasbmh11pfanUQ4UH-ZpahQKtA=w1478-h984-no)
 
