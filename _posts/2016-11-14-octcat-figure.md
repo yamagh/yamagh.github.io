@@ -1,7 +1,9 @@
+---
 layout: post
 title:  "Octcat (3inch) のフィギュアをゲット!"
 date:   2016-11-14 23:55:00 +09:00:00
 categories: [#github ]
+---
 
 Amazon でブラブラしてたら Github の Octcat のフィギュアを発見！
 かわいいので思わずポチってしまった。
