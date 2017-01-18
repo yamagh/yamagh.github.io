@@ -22,3 +22,4 @@ Amazon でブラブラしてたら Github の Octcat のフィギュアを発見
 
 <a href='https://photos.google.com/share/AF1QipOqKRou2ky8ZrkwuW7Ebgn0DyeakUJJUCIiCDmB4bOv7UwrFA5zpfEkBewgJ0CYbw?key=TE9Kb3l3VzZrWnliS1l5aFpWYnJISW1NQU5Lal93&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/qwoUD0p-646x1MsVw5nimnrKzJihXr4V78HnnY0tGVyo10Nrv9BkadpZlBpS-5RNnKi08c4H2oBEEOSnsdMnoo5Tr_gIuJvD4I500acRDsfp8o1OR6ZABHM1Uu01uiEk5k4QMKw' /></a>
 
+
