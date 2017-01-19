@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Google Photos の写真をブログに埋め込む方法"
+title:  "Google Photos で403エラー"
 date:   2017-01-18 23:23:28 +0900
 categories: [google-photos tips]
 ---
