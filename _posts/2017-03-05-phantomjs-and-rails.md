@@ -15,5 +15,5 @@ Heroku で PhantomJs を使おうとしたら次のエラーが発生したの�
 
 参考URL
 - [Heroku, Ruby on Rails and PhantomJS](https://gist.github.com/edelpero/9257311)
-- [HerokuでRuby on RailsとPhantomJSの両方を使う方法 - gaharaプロデューサーの学習ラボ | ガハラボ](http://engineer.gahara.me/entry/heroku-ruby-phantomjs)
+- [HerokuでRuby on RailsとPhantomJSの両方を使う方法 - gaharaプロデューサーの学習ラボ](http://engineer.gahara.me/entry/heroku-ruby-phantomjs)
 
