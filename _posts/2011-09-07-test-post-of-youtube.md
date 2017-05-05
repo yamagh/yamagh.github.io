@@ -6,7 +6,7 @@ tags: Music
 categories:
 ---
 
-{% youtube "https://www.youtube.com/embed/P9SOjZWd2dk" %}
+<iframe width="853" height="480" src="https://www.youtube.com/embed/P9SOjZWd2dk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 坂本龍一の曲の中で最も好きな１曲。  
 はぁ・・癒される。  
