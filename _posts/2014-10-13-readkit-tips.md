@@ -2,7 +2,8 @@
 layout: post
 title:  "Readkit の Smart Folder で入れ子で条件指定する方法"
 date:   2014-10-13 16:10:00 +0900
-categories: Readkit
+tags:   Readkit
+categories:
 ---
 
 ![image](https://lh3.googleusercontent.com/0qYUBYlFIXr5vCWQw_e2iVJ---CA6VlCPTQAKHNChhXd5gtCQc3-CZudICQOyC94GRptD0Z0l_ipKAYKbfirRTa6pWM1KHN45un4zRhBRMoXnLNgGdwnTf1CObo9JdniOBOW65-L-t32sNc71Wfj3nY9i7jf2ZmS7iRAvKWM3hITjh8XSvOGwsp8WCHCdUSHBKjYO655xcLF1Z0IMd58PH3vhUwZMjQ2lfsN_r1sGO238t2uufZh_jUbM6cPosZJRUJYnbe8jJmtXMizdAw_oCX5d_gnlV2MWszdHFqzIxaU8pm3Ztiucyla05GpyJjLb5c3kwC4comhMPZSRWObv0ZLqdgMcH2Fwnza7tHGXcBYBMldrx9z2h-XgtQl3NxKJJM27ixK8JqP3uGaai4jOkCVQOyHnvluNMbG8Vbgh0vNoaLz0kNP09dDrH_MAujRw427b3ghP2zUb6BzXAAcbTY3yoGWAsfbYu1zFB76-KRGUyPiR7de0yskLuutAZf57KzQ6Tw_n_86IKyPF5vKPpicowb5AP29xjxO6rR-WdxvqvpuJCnxhi-sIUEB6eI_P2-lAA=w480-h292-no) 

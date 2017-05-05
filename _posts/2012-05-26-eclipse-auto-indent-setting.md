@@ -2,7 +2,8 @@
 layout: post
 title:  "eclipse でオートインデントにタブではなくスペースを使う設定"
 date:   2012-05-26 00:05:00 +0900
-categories: eclipse
+tags:   eclipse
+categories:
 ---
 eclipseでコードをショートカットキーで自動でインデントしてくれる機能があるけど、
 デフォルトの設定はインデントにタブが使われて不便だったので設定を変えることにした。

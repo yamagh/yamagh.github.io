@@ -2,6 +2,7 @@
 layout: post
 title:  "どてかぼちゃカーニバル"
 date:   2011-09-13 22:09:00 +0900
+tags:   Photo
 categories: 
 ---
 

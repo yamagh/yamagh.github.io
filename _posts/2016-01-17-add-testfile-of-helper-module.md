@@ -2,7 +2,8 @@
 layout: post
 title:  "Helper モジュールのテスト追加"
 date:   2016-01-17 13:03:40 +0900
-categories: rails 
+tags:   rails test
+categories:
 ---
 
 `rails generate` でなぜかテストファイルが作られなかったので、手で追加する場合のメモ。

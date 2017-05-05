@@ -2,7 +2,8 @@
 layout: post
 title:  "Zipの中の `.DS_Store` や `__MACOSX` を削除"
 date:   2014-12-06 17:22:45 +0900
-categories: Mac
+tags:   macOS
+categories:
 ---
 
  こんな感じで `.DS_Store` やら `__MACOSX` が入っているzipから取り除く方法。

@@ -2,7 +2,8 @@
 layout: post
 title:  "Sinatra で Hello World"
 date:   2014-12-07 11:33:24 +0900
-categories: Ruby Sinatra
+tags:   Ruby Sinatra
+categories:
 ---
 
 こんな感じでものすごく簡単に動かせた。

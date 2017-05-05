@@ -2,7 +2,8 @@
 layout: post
 title:  "VBS で UnitTest"
 date:   2014-11-16 21:11:00 +0900
-categories: VBScript
+tags:   VBScript
+categories:
 ---
 
 ![image](https://lh3.googleusercontent.com/Dc89QhYRyaFQ5G1cO-zH9W4nalN-RyrOwyUTCH60uYYYNLco0IpI_RW3kC4-s_O7vAhFSrOneDrCvR-ToKcdNdbkRR4HwdDx4o0FtTScaGcaKP599Potibea0nLBuImrdf66Vdy8bFrFT4nMMAXiOyccXbUQHkVQj29aO81sM3bDBN9qNlG8rAGg2tNe2qDBiRr8gl2lH30PCHknxCuI_XLlDXXtKtnpwNt0lnSSlzdlpG3-YmbtXzUo74Jp2nSUyUm-Gf7195cE9R62oBBKatd7niST0Vv3klPdERm8R-FuReaKQkbzuRyqkZfQVDBhuSZjxTyiDtnfBNI8fbuX43RunkbXYDNt0GECTI0iW9smJZSDGw7a4htGs7vSikUUgfU9ADkIJF3TuOZvGFk5moxAmain1aarcSOpUzwoMlPYlIoPWi_V2oxDdExEr0Cugq_pt3nTFiyPHMyBvXPm2x_fUzQcISubj1v3TDqKKkt2CM8nwyrnZh-hE34bnLfN2nrfD38rPOa4U_Wp19FJ0X2a04iHrQjFph6dSR_0E0DNdghW5iBZF5thYdcTZZG7F496nQ=w751-h501-no)

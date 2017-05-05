@@ -2,7 +2,8 @@
 layout: post
 title:  "Heroku と Rails と PhantomJS"
 date:   2017-03-05 22:12:09 +0900
-categories: [heroku rails phantomjs]
+tags:   heroku rails phantomjs
+categories:
 ---
 
 Heroku で PhantomJs を使おうとしたら次のエラーが発生したので対処方法をメモ。

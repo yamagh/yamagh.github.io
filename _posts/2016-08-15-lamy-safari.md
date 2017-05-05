@@ -2,7 +2,8 @@
 layout: post
 title:  "LAMY Safari"
 date:   2016-08-15 19:25:19 +0900
-categories: [文房具]
+tags:   文房具 LAMY
+categories:
 ---
 
 ![img](https://lh3.googleusercontent.com/WjsQAwharp0pr1zS-TWmB47C-Yee397CzO_OJwAI6fgazHAHFzS-cyg3QdIDAO7_4ayqNKiVpYmZDyn5i5fVMAFZKOwUP6I8EQWkLQoUVwbSmLD1ishtR5IrI8HLXuO02wlErwZH9wQ8aY8OpnBz8g618TG4ELfl_P76SdfZAAOdZWBipy4IW15hFIHdb8miCyMD3xOxJmocQzi8ouKnGdhtM_qHRXIVqI6sE011tfmy_xKItYVy2oQLeDZAhfxOhuxlOS9-I4pl8_88zn3JfCAoguBgdFTmpSnT4jo5SZkA9yTJZmZ5E9BwIAAA09e9UUVF-wHIVISeX6ecoPwuxXr64MacrbxF8s8uLSjGemNV2k5btMxvMt2N5qpalgehourxvG-xAdhflxv8Oz5L0Rl1kxABP_YvJEakS_PcG1dQ0vSl4pQ-NYV0QWrAmPAi5SJcvMrlVBZRTSDjJMuj1zppy3q2UHtJO4CNcjgsyc8LXXU8SjnFMuFUj4ho5-pKYEqY4zniYduEIkl9eA2pSd824a4gkh6kkoCz7D9jMJhb9JpaRW_nwTXXM77QZCCFHPTG1-0fjLdEcEfOku4oh_WukU_Lb5NN=w1201-h799-no)

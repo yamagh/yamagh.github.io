@@ -2,6 +2,7 @@
 layout: post
 title:  "花火"
 date:   2011-08-27 08:08:00 +0900
+tags:   Photo
 categories: 
 ---
 

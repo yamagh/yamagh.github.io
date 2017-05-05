@@ -2,7 +2,8 @@
 layout: post
 title:  "Keras で CIFAR-10"
 date:   2017-01-15 22:40:23 +0900
-categories: [keras deeplearning]
+tags:  keras deeplearning
+categories:
 ---
 
 先週、[TensorFlow](https://www.tensorflow.org/) のラッパーで [Keras](https://keras.io/ja/) なる便利なツールがあることを知って、今週末ちょっと触ってみた。

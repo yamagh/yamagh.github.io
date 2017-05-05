@@ -2,7 +2,8 @@
 layout: post
 title:  ".vimrc"
 date:   2016-05-22 19:20:44 +0900
-categories: vim
+tags: vim
+categories:
 ---
 
 ちょっと前に [dein.vim](http://github.com/Shougo/dein.vim) が話題になってた時

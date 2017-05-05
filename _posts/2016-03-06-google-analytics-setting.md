@@ -2,7 +2,8 @@
 layout: post
 title:  "Jekyll で Google Analytics の設定"
 date:   2016-03-06 17:16:12 +0900
-categories: Jekyll
+tags:   Jekyll GoogleAnalytics
+categories:
 ---
 はてブから Jekyll にお引越しをしてみたらなんと５年間で３０記事くらいしか書いて
 なくてあまりの少なさにもっと書かなきゃなぁと反省中。  

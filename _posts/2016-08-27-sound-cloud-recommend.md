@@ -2,7 +2,8 @@
 layout: post
 title:  "SoundCloud の選曲"
 date:   2016-08-27 15:25:28 +0900
-categories: [Music SoundCloud]
+tags:   Music SoundCloud
+categories:
 ---
 
 新しい曲を探すのに普段から [SoundCloud](https://soundcloud.com) を使ってるけど、いつのころからか分からないけれど選曲のセンスが良くなってる感じがする。

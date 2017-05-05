@@ -2,6 +2,7 @@
 layout: post
 title:  "白猪の滝祭り"
 date:   2011-11-03 23:11:00 +0900
+tags:   Photo
 categories: 
 ---
 

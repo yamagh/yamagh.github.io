@@ -2,7 +2,8 @@
 layout: post
 title:  "Day One の Command Line Tool"
 date:   2014-12-07 20:05:16 +0900
-categories: DayOne
+tags:   DayOne
+categories:
 ---
 Day One のレビュー欄を見ているとコマンドラインツールがあるというコメントを発見。
 早速公式サイトで探してみると確かにある。

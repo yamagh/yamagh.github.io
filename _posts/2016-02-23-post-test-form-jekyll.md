@@ -2,7 +2,8 @@
 layout: post
 title:  "Jekyll からテストエントリ"
 date:   2016-02-23 00:06:20 +0900
-categories: jekyll update
+tags:   jekyll blog
+categories:
 ---
 
 Jekyll で試しエントリ書いてみる。  

@@ -3,51 +3,160 @@
 ---
 @charset "utf-8";
 
+// http://www.rmimaging.com/projects/inks/inks.html
+$lamy_black:      #5c4d48;
+$lamy_blue:       #3d68b2;
+$lamy_blue_black: #686a60;
+$lamy_green:      #00a275;
+$lamy_red:        #ff5b59;
+$lamy_turquoise:  #0080b9;
 
+html {
+  background-color: whitesmoke;
+}
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+body,a,div,ul,li {
+  color: $lamy_blue_black;
+}
 
-$spacing-unit:     30px;
+h1,h2,h3,h4,h5,h6 {
+  color: $lamy_black;
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+body {
+  background-color: white;
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+h1 {
+  padding: 50px 0 50px 0;
+}
 
-// Width of the content area
-$content-width:    800px;
+h2 {
+  position: relative;
+  margin: 30px 0 30px 0;
+}
+h2:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: -2rem;
+  border-left: 1px solid $lamy_green;
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+img {
+  padding: 30px 0 30px 0;
+  max-width: 100%;
+  max-height: 100%;
+}
 
+ul.posts-list {
+  padding: 0;
+}
 
+li.posts-list-item {
+  padding: 15px;
+}
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+li.posts-list-item:hover {
+  background-color: whitesmoke;
+}
+
+a:hover {
+  //color: $lamy_green;
+}
+
+.navbar-default {
+  background-color: white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 0;
+
+  .navbar-brand {
+    background-color: white;
+    color: $lamy_blue_black;
+  }
+  
+  .navbar-nav li a {
+    color: $lamy_blue_black;
+  }
+}
+
+.container-fluid {
+  max-width: 1024px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-label {
+  color: $lamy_blue_black;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  position: relative;
+}
+.title-label:after{
+  width:145px;
+  content: "";
+  border-bottom: 1px solid $lamy_green;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  margin:auto;
 }
 
 
+.posts-list {
+  list-style: none;
+  padding: 0 15px 0 15px;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.posts-list-item {
+  font-size: 1.5rem;
+  line-height: 30px;
+  padding-bottom: 45px;
+}
+
+.posts-list-title {
+  font-size: 2rem;
+}
+
+.posts-list-date {
+  color: silver;
+}
+
+.post-title {
+  //text-align: center;
+  font-size: 2rem;
+}
+
+.footer {
+  color: gray;
+  border-top: 1px solid gainsboro;
+  padding: 30px 30px 30px 30px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+}
+
+.page-header {
+  border: 0;
+  padding-bottom: 60px;
+}
+
+.post-header {
+  padding: 0 15px 0 15px;
+}
+
+.post-content {
+  padding: 0 15px 0 15px;
+}

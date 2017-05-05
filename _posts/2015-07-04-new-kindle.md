@@ -2,7 +2,8 @@
 layout: post
 title:  "kindle paper white (2015)"
 date:   2015-07-04 18:36:55 +0900
-categories: Pocket kindle
+tags:   Pocket kindle
+categories:
 ---
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">やった―！kindle paper white ゲット！今まで使ってたSonyのReaderより字がキレイ。バックライトがついてるおかげで暗い部屋でも見やすいしいままでよりReaderの時よりグッと良くなった。 <a href="http://t.co/5ZEvCpL79G">pic.twitter.com/5ZEvCpL79G</a></p>&mdash; yamagh (@_yama) <a href="https://twitter.com/_yama/status/616253832658464768">2015年7月1日</a></blockquote>

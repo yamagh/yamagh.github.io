@@ -2,7 +2,8 @@
 layout: post
 title:  "会社の後輩の子にバレンタインのチョコレートもらった"
 date:   2016-02-21 00:00:00 +0900
-categories: life
+tags:   life
+categories:
 ---
 
 今年も会社の子にチョコレート貰って首の皮一枚でつながりました。  

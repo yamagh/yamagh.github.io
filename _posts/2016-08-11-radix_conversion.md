@@ -2,7 +2,8 @@
 layout: post
 title:  "[Ruby] 基数変換"
 date:   2016-08-11 18:27:34 +0900
-categories: ruby
+tags:   ruby
+categories:
 ---
 
 基数変換をしようとするといつも忘れてしまっているのでメモ。

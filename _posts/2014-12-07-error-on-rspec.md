@@ -2,7 +2,8 @@
 layout: post
 title:  "undefined method `describe' for main:Object (NoMethodError)`"
 date:   2014-12-07 00:53:25 +0900
-categories: Ruby, RSpec
+tags:   Ruby RSpec
+categories:
 ---
 
 RSpecを始めてみようと思って[ここ](http://qiita.com/yusabana/items/db44b81bdddf6ed0e9f5)の記事を参考にサンプルを書いてみたらエラーが出て少し困った。

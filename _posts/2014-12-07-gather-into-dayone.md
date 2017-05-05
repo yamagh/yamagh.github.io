@@ -2,7 +2,8 @@
 layout: post
 title:  "いろんなWebサービスのアクティビティをDayOneにまとめる"
 date:   2014-12-07 20:06:27 +0900
-categories: DayOne Twitter Pocket Last.fm
+tags:   DayOne Twitter Pocket Last.fm
+categories:
 ---
 前回のエントリに引き続き設定をしてみる。
 

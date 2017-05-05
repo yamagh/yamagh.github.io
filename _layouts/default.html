@@ -4,15 +4,18 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="container-fluid">
+  
+      {% include header.html %}
+  
+      <div class="page-content">
         {{ content }}
       </div>
     </div>
-
+  
     {% include footer.html %}
   </body>
+  <script type="text/javascript">
+    $(document).ready(function(){window.scrollTo(0, 80);});
+  </script>
 </html>

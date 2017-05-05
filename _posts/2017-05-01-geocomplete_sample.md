@@ -2,7 +2,8 @@
 layout: post
 title:  "[js] Geocomplete を使ってみた"
 date:   2017-05-01 09:11:27 +0900
-categories: [geocomplete js GoogleMap]
+tags:   geocomplete js GoogleMap rails
+categories:
 ---
 
 [Geocomplete](http://ubilabs.github.io/geocomplete/) という jQuery プラグインを使ってみたので、その使い方を色々メモ。  
