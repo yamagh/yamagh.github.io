@@ -30,5 +30,3 @@ analytics :
 #  getclicky :
 #    site_id :
 
-plugins_dir: [jekyll-youtube]
-
