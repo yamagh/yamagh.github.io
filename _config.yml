@@ -30,5 +30,5 @@ analytics :
 #  getclicky :
 #    site_id :
 
-#gems: [jekyll-youtube]
+plugins_dir: [jekyll-youtube]
 
