@@ -11,7 +11,7 @@ email: yamagh@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
     愛媛ではたらくしがないエンジニアが綴る日常のブログ。
     最近人生に迷い気味。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: _yama
 github_username:  yamagh

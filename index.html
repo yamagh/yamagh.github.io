@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
+title:  Recent posts
 ---
 
-<div class="page-header">
-  <span class="title-label">Recent posts</span>
-</div>
 <ul class="posts-list">
   {% for post in site.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}">
@@ -16,9 +14,6 @@ layout: default
       <div class="pull-right">
         {% for tag in post.tags %}
           <span class="label label-default">{{ tag }}</span>
-        {% endfor %}
-        {% for cat in post.categories %}
-          <span class="label label-default">{{ cat }}</span>
         {% endfor %}
       </div>
 

@@ -11,38 +11,72 @@ $lamy_green:      #00a275;
 $lamy_red:        #ff5b59;
 $lamy_turquoise:  #0080b9;
 
+$theme_color: $lamy_green;
+
 html {
   background-color: whitesmoke;
-}
-
-body,a,div,ul,li {
-  color: $lamy_blue_black;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  color: $lamy_black;
 }
 
 body {
   background-color: white;
 }
 
+body,div,ul,li {
+  color: $lamy_blue_black;
+}
+
+a, a:focus, a:hover {
+  color: $theme_color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $lamy_black;
+}
+
 h1 {
-  padding: 50px 0 50px 0;
+  color: $lamy_blue_black;
+  display: block;
+  margin: 50px 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  position: relative;
+}
+
+h1:after{
+  width:145px;
+  content: "";
+  border-bottom: 1px solid $theme_color;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  margin:auto;
 }
 
 h2 {
-  position: relative;
-  margin: 30px 0 30px 0;
+  margin: 30px 0;
+  line-height: 4rem;
+  border-bottom: 1px dashed lightgray;
 }
-h2:before {
+
+h3 {
+  position: relative;
+  margin: 30px 0;
+}
+
+h3:before {
   position: absolute;
   display: block;
   content: "";
   top: 0;
   bottom: 0;
   left: -2rem;
-  border-left: 1px solid $lamy_green;
+  border-left: 1px solid $theme_color;
 }
 
 img {
@@ -67,10 +101,6 @@ li.posts-list-item:hover {
   background-color: whitesmoke;
 }
 
-a:hover {
-  //color: $lamy_green;
-}
-
 .navbar-default {
   background-color: white;
   border-top: 0;
@@ -89,36 +119,17 @@ a:hover {
   }
 }
 
+.navbar-default {
+  .navbar-brand:hover, .navbar-nav>li>a:hover {
+    color: $theme_color;
+  }
+}
+
 .container-fluid {
   max-width: 1024px;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.title-label {
-  color: $lamy_blue_black;
-  display: block;
-  padding-top: 0;
-  padding-bottom: 0px;
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 2rem;
-  letter-spacing: .1rem;
-  text-align: center;
-  position: relative;
-}
-.title-label:after{
-  width:145px;
-  content: "";
-  border-bottom: 1px solid $lamy_green;
-  position: absolute;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: -20px;
-  margin:auto;
-}
-
 
 .posts-list {
   list-style: none;
@@ -147,20 +158,23 @@ a:hover {
 .footer {
   color: gray;
   border-top: 1px solid gainsboro;
-  padding: 30px 30px 30px 30px;
+  margin-top: 60px;
+  padding: 80px 0;
   background-color: whitesmoke;
-  margin-top: 30px;
 }
 
-.page-header {
+.page-header,.post-header {
   border: 0;
-  padding-bottom: 60px;
+  margin: 60px 0 120px 0;
+  padding: 0;
 }
 
-.post-header {
-  padding: 0 15px 0 15px;
+.page-content,.post-content {
+  padding: 0 15px;
 }
 
-.post-content {
-  padding: 0 15px 0 15px;
+code.highlighter-rouge {
+  color: $lamy_blue_black;
+  background-color: whitesmoke;
 }
+
