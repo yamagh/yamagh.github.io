@@ -5,6 +5,12 @@ permalink: /tags
 ---
 
 {% for tag in site.tags %}
-tag
+<article>
+  <h2 id="tag_{{ tag[0] }}">{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article>
 {% endfor %}
-
