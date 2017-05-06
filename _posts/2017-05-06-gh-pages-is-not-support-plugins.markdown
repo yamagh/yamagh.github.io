@@ -38,7 +38,7 @@ Youtube の動画を埋め込んだときにウインドウの幅によって縦
 
 Github Pages は以下のページのプラグインはサポートしているけれど
 
-[Dependency versions | GitHub Pages](https://pages.github.com/versions/)
+[Dependency versions - GitHub Pages](https://pages.github.com/versions/)
 
 これら以外の独自のプラグインをサポートしていないとのこと。  
 詳しくはこちらのページに書いてありました。
