@@ -1,7 +1,10 @@
 ---
 layout: page
 title: tags
-permalink: /tags/
+permalink: /tags
 ---
 
+{% for tag in site.tags %}
+tag
+{% endfor %}
 
