@@ -18,6 +18,11 @@ github_username:  yamagh
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
+  syntax_highlighter: rouge
 
 # Settings for analytics helper
 # Set 'provider' to the analytics provider you want to use.
@@ -33,4 +38,5 @@ analytics :
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - rouge
 

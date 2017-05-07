@@ -31,25 +31,35 @@ categories:
 1. `Google Places API Web Service` で `API_KEY` を取得する
 2. Gemfile に追記して bundle install
 
-        gem 'geocomplete_rails'
+    ```ruby
+    gem 'geocomplete_rails'
+    ```
 
 3. application.js に追記
 
-        //= require geocomplete
+    ```js
+    //= require geocomplete
+    ```
 
 4. application.slim に次の記述をを追加する (`API_KEY` には手順1で取得した `API_KEY` を設定する)
 
-        javascript_include_tag "http://maps.googleapis.com/maps/api/js?key=`API_KEY`&libraries=places"
+    ```slim
+    javascript_include_tag "http://maps.googleapis.com/maps/api/js?key=`API_KEY`&libraries=places"
+    ```
 
 5. オートコンプリートを行わせたいテキストボックスに `geocomplete` という id を付ける  
    (id は何でも良いがとりあえずコレにして以降の手順を書く)
 
-        = search_field :find, :query, {id: 'geocomplete'}
+    ```slim
+    = search_field :find, :query, {id: 'geocomplete'}
+    ```
 
 6. オートコンプリートで候補を選択した時にマップを表示させる要素として `.map_canvas` を用意する
 7. オートコンプリートで候補を選択した時に名前とか座標の値を設定したい要素に `'data-geo' => 'name'` といった属性を付ける  
 
-        = f.text_field :name, {'data-geo' => 'name'}
+    ```slim
+    = f.text_field :name, {'data-geo' => 'name'}
+    ```
 
    `name` 以外にも以下の項目等があるが詳細は [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/places#place_details_responses) の `プレイス詳細の結果` を参照
 
@@ -91,14 +101,16 @@ categories:
 8. jQuery でオートコンプリートが動くように設定する  
    オートコンプリートを動かす画面の coffee スクリプトにこんな感じに記述
 
-        $(document).on 'turbolinks:load', ->
-          $("#geocomplete").geocomplete {        # 手順5 で指定したテキストボックスでオートコンプリートが動くように設定
-            map: ".map_canvas"                   # 手順6 で用意した要素と紐付け
-            details: "form"                      # オートコンプリートの結果を入れる親要素を指定
-            detailsAttribute: "data-geo"         # 手順7 で使用した属性の指定
-            types: ["geocode", "establishment"]  # Google から返ってくるオートコンプリート候補の種類の指定
-            location: [35.710067, 139.8085117]   # `map` にデフォルトで表示する座標
-          }
+    ```coffee
+    $(document).on 'turbolinks:load', ->
+      $("#geocomplete").geocomplete {        # 手順5 で指定したテキストボックスでオートコンプリートが動くように設定
+        map: ".map_canvas"                   # 手順6 で用意した要素と紐付け
+        details: "form"                      # オートコンプリートの結果を入れる親要素を指定
+        detailsAttribute: "data-geo"         # 手順7 で使用した属性の指定
+        types: ["geocode", "establishment"]  # Google から返ってくるオートコンプリート候補の種類の指定
+        location: [35.710067, 139.8085117]   # `map` にデフォルトで表示する座標
+      }
+    ```
 
 ## 細かい手順
 
