@@ -30,3 +30,6 @@ analytics :
 #  getclicky :
 #    site_id :
 
+gems:
+  - jekyll-sitemap
+
