@@ -31,19 +31,18 @@ a, a:focus, a:hover {
 
 h1,h2,h3,h4,h5,h6 {
   color: $lamy_black;
+  font-weight: bold;
 }
 
 h1 {
   color: $lamy_blue_black;
   display: block;
-  margin: 50px 0;
-  padding: 0;
   font-size: 2rem;
-  font-weight: bold;
-  line-height: 2rem;
   letter-spacing: .1rem;
-  text-align: center;
+  margin: 100px 0;
+  padding: 0;
   position: relative;
+  text-align: center;
 }
 
 h1:after{
@@ -59,25 +58,25 @@ h1:after{
 }
 
 h2 {
-  margin: 30px 0;
+  margin: 60px 0 40px 0;
   line-height: 4rem;
   border-bottom: 1px dashed lightgray;
 }
 
 h3 {
   position: relative;
-  margin: 40px 0 20px 0;
+  margin: 60px 0 40px 0;
 }
 
-h3:before {
-  position: absolute;
-  display: block;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: -2rem;
-  border-left: 1px solid $theme_color;
-}
+//h3:before {
+//  position: absolute;
+//  display: block;
+//  content: "";
+//  top: 0;
+//  bottom: 0;
+//  left: -2rem;
+//  border-left: 1px solid $theme_color;
+//}
 
 img {
   padding: 30px 0 30px 0;
@@ -185,5 +184,11 @@ hr {
 code.highlighter-rouge {
   color: $lamy_blue_black;
   background-color: whitesmoke;
+}
+
+@media (max-width: 767px) {
+  .page-content {
+    padding: 0;
+  }
 }
 
