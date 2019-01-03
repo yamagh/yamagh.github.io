@@ -1,10 +1,11 @@
- ---
- layout: post
- title:  "[macOS] Finder で圧縮をショートカットで実行"
- date:   2019-01-03 18:26:17 +0900
- tags: macOS
- categories: 
- ---
+---
+layout:     post
+title:      "[macOS] Finder で圧縮をショートカットで実行"
+date:       2019-01-03 18:26:17 +0900
+tags:       macOS
+categories:
+published:  true
+---
 
 ![img](https://lh3.googleusercontent.com/lCkGGHSZ4NCitgx05IWctfQGmlhDayc_77d4UNvaEZdK71HQlWCY9B8cQQ03yOn4pK3bCDB_Nr2pxVhZorWxKGNJd_lKFUJQ9ENzZG-G8rCQvLN5HDh2s9Zrc38XXgaEJFHtOgAvUW2Ne2J7LIuWZLqrU_5QVzCT9Uld5VH_VdAQ-lJiPHN3vkgUOMxwVVcxYUyep0Nyx7GZoAINYLq9szlrWXcd3x9qGwm-LTXWk-DahF3rQfgt7bQm79-10X1pxJJ46B1tR1MfBbHhP2n1OhfqdBjygFe-bpsAy2K26Xz5XeeKN-EhXhlGPpRnmQNT1rBFTiFwQiH_VE2eauO1Am6KsE85F85GNyGfqEvuToNhDJrX4IDqnDP88tyYPWo3rpTcMAS24ckIvBi50doizqP5B8Zid0bixDhJz5cmLWPaZejYMlYGpIgWQnAp2qop8xuCR1gEuF96TJu8DqYDmIMhe8Hykv0dLI6Xi2kOxC43eR6gM0xhPcR1_oU7RUtEMCfjg9r9fPW2O7sp5omm30Dp39vFshP2wwZD3IpyHjixC5Jy-Hb00HYDmylP3jPim87i_HeVop4e6PIfKOWSihqnatdadWFIUA7sf4yGIiV4YnrVjN2NvhOSVdqod37NknzQP4RmrVNSxmtsZUdth0iH6qyHRKCWcIEnFIss4z3ymo-vr9scBrasu8HIyfBw3NEVQZiZZFXp3VZxjgg=w703-h315-no=w740)
 
