@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[OutSystems] Aggregate の SQL 最適化の注意点"
+title:      "[OutSystems] Aggregate で NullIdentifier() を使うときの注意点"
 date:       2019-09-28 22:56:47 +0900
 tags:       OutSystems11
 categories: OutSystems
