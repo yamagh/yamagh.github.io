@@ -35,7 +35,7 @@ analytics :
 #  getclicky :
 #    site_id :
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - rouge

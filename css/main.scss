@@ -192,3 +192,16 @@ code.highlighter-rouge {
   }
 }
 
+div[itemprop="articleBody"] > table {
+  margin: 10px 0;
+}
+
+div[itemprop="articleBody"] > table tr {
+  border-bottom: 1px solid silver;
+}
+
+div[itemprop="articleBody"] > table th,
+div[itemprop="articleBody"] > table td {
+  padding: 5px 20px;
+}
+
