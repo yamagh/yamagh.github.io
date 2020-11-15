@@ -35,7 +35,7 @@ OutSystems の事を詳しく知ろうと思うと、自由にサワれる環境
 ## 今回つくる環境
 
 - Windows Server 2019
-- OutSystems Platform vX.XXXX
+- OutSystems Platform v11.9.1
 
 ## OutSystems インストールの前提条件のセットアップ
 
@@ -62,28 +62,28 @@ brew cask install virtualbox
 次のような設定でマシンを作成。  
 [OutSystems のシステム要件](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements)としてはメモリが最低 4GB 必要となっています（2020年11月時点）。ただ個人的には 4GB では少なすぎる感じがするので最低でも 8GB は欲しいところです。
 
-![img](../assets/2020-10-15-001-1024.webp)
-![img](../assets/2020-10-15-002-1024.webp)
+![img](assets/2020-10-15-001-1024.webp)
+![img](assets/2020-10-15-002-1024.webp)
 
 手順2−1でダウンロードした Windows Server 2019 の ISO ファイルをディスクドライブに設定。
 
-![img](../assets/2020-10-15-003-1024.webp)
+![img](assets/2020-10-15-003-1024.webp)
 
 マシンを起動してインストール開始。
 
-![img](../assets/2020-10-15-005-1024.webp)
+![img](assets/2020-10-15-005-1024.webp)
 
 `Windows Server 2019 Sandard evaluation (デスクトップ エクスペリエンス)` を選択。
 
-![img](../assets/2020-10-15-006-1024.webp)
+![img](assets/2020-10-15-006-1024.webp)
 
 その他は次へ、次へでインストール実行。
 
-![img](../assets/2020-10-15-007-1024.webp)
+![img](assets/2020-10-15-007-1024.webp)
 
 数分待てばインストールは完了。
 
-![img](../assets/2020-10-15-008-1024.webp)
+![img](assets/2020-10-15-008-1024.webp)
 
 ### 3. Microsoft SQL Server 2017 のインストール
 
@@ -93,14 +93,14 @@ brew cask install virtualbox
 
 インストーラーを起動して `基本` を選択。
 
-![img](../assets/2020-10-15-009-1024.webp)
+![img](assets/2020-10-15-009-1024.webp)
 
 あとは次へ進むだけでインストールは完了。
 
-![img](../assets/2020-10-15-010-1024.webp)
-![img](../assets/2020-10-15-011-1024.webp)
-![img](../assets/2020-10-15-012-1024.webp)
-![img](../assets/2020-10-15-013-1024.webp)
+![img](assets/2020-10-15-010-1024.webp)
+![img](assets/2020-10-15-011-1024.webp)
+![img](assets/2020-10-15-012-1024.webp)
+![img](assets/2020-10-15-013-1024.webp)
 
 ### 4. （たぶん任意）Microsoft SQL Server Management Studio (SSMS) のインストール
 
@@ -108,11 +108,11 @@ SQL Server のインストールに引き続いて SSMS のインストールを
 
 `SSMS のインストール` をクリックするとダウンロード先のページが開くのでインストーラーをダウンロードして実行。特に選択肢もなく完了します。
 
-![img](../assets/2020-10-15-014-1024.webp)
-![img](../assets/2020-10-15-015-1024.webp)
-![img](../assets/2020-10-15-016-1024.webp)
-![img](../assets/2020-10-15-017-1024.webp)
-![img](../assets/2020-10-15-018-1024.webp)
+![img](assets/2020-10-15-014-1024.webp)
+![img](assets/2020-10-15-015-1024.webp)
+![img](assets/2020-10-15-016-1024.webp)
+![img](assets/2020-10-15-017-1024.webp)
+![img](assets/2020-10-15-018-1024.webp)
 
 ## Platform Server のインストール
 
@@ -126,88 +126,88 @@ SQL Server のインストールに引き続いて SSMS のインストールを
 
 インストーラー起動して次へ、次へと進むめば完了。
 
-![img](../assets/2020-10-15-019-1024.webp)
-![img](../assets/2020-10-15-020-1024.webp)
-![img](../assets/2020-10-15-021-1024.webp)
-![img](../assets/2020-10-15-022-1024.webp)
-![img](../assets/2020-10-15-023-1024.webp)
-![img](../assets/2020-10-15-024-1024.webp)
-![img](../assets/2020-10-15-025-1024.webp)
-![img](../assets/2020-10-15-026-1024.webp)
+![img](assets/2020-10-15-019-1024.webp)
+![img](assets/2020-10-15-020-1024.webp)
+![img](assets/2020-10-15-021-1024.webp)
+![img](assets/2020-10-15-022-1024.webp)
+![img](assets/2020-10-15-023-1024.webp)
+![img](assets/2020-10-15-024-1024.webp)
+![img](assets/2020-10-15-025-1024.webp)
+![img](assets/2020-10-15-026-1024.webp)
 
 ### 3. Configuration Tool で環境の設定
 
-![img](../assets/2020-10-15-027-1024.webp)
+![img](assets/2020-10-15-027-1024.webp)
 
 管理者のパスワードを入力して `Grant Permission` をクリック。
 
-![img](../assets/2020-10-15-028-1024.webp)
-![img](../assets/2020-10-15-029-1024.webp)
-![img](../assets/2020-10-15-030-1024.webp)
+![img](assets/2020-10-15-028-1024.webp)
+![img](assets/2020-10-15-029-1024.webp)
+![img](assets/2020-10-15-030-1024.webp)
 
 続いて、 `Create/Upgrade Databse` をクリック。  
 次のようにエラーが表示された場合は、
 
-![img](../assets/2020-10-15-031-1024.webp)
+![img](assets/2020-10-15-031-1024.webp)
 
 SSMS を開いてサーバーのプロパティ設定のセキュリティ設定を開いて、サーバ認証の `SQL Server 認証モードと Windows 認証モード` を選択。  
 その後、再度 `Create/Upgrade Databse` をクリックすればエラーは解消するはず。
 
-![img](../assets/2020-10-15-032-1024.webp)
-![img](../assets/2020-10-15-033-1024.webp)
-![img](../assets/2020-10-15-034-1024.webp)
+![img](assets/2020-10-15-032-1024.webp)
+![img](assets/2020-10-15-033-1024.webp)
+![img](assets/2020-10-15-034-1024.webp)
 
 Log データベースも同様に作成。
 
-![img](../assets/2020-10-15-035-1024.webp)
-![img](../assets/2020-10-15-036-1024.webp)
-![img](../assets/2020-10-15-037-1024.webp)
-![img](../assets/2020-10-15-038-1024.webp)
-![img](../assets/2020-10-15-039-1024.webp)
+![img](assets/2020-10-15-035-1024.webp)
+![img](assets/2020-10-15-036-1024.webp)
+![img](assets/2020-10-15-037-1024.webp)
+![img](assets/2020-10-15-038-1024.webp)
+![img](assets/2020-10-15-039-1024.webp)
 
 Session データベースも同様に作成。
 
-![img](../assets/2020-10-15-040-1024.webp)
-![img](../assets/2020-10-15-041-1024.webp)
-![img](../assets/2020-10-15-042-1024.webp)
-![img](../assets/2020-10-15-043-1024.webp)
+![img](assets/2020-10-15-040-1024.webp)
+![img](assets/2020-10-15-041-1024.webp)
+![img](assets/2020-10-15-042-1024.webp)
+![img](assets/2020-10-15-043-1024.webp)
 
 Platform の管理者（ServiceCenter や Users にログインするユーザのパスワードを設定）
 
-![img](../assets/2020-10-15-044-1024.webp)
+![img](assets/2020-10-15-044-1024.webp)
 
 Cash サービスの設定。パスワードの設定打入力して `Create/Upgrade Service`。
 
-![img](../assets/2020-10-15-045-1024.webp)
-![img](../assets/2020-10-15-046-1024.webp)
-![img](../assets/2020-10-15-047-1024.webp)
+![img](assets/2020-10-15-045-1024.webp)
+![img](assets/2020-10-15-046-1024.webp)
+![img](assets/2020-10-15-047-1024.webp)
 
 Scheduler のタブは特に設定変更せず、 `Apply and Exit`。
 
-![img](../assets/2020-10-15-048-1024.webp)
-![img](../assets/2020-10-15-049-1024.webp)
-![img](../assets/2020-10-15-050-1024.webp)
+![img](assets/2020-10-15-048-1024.webp)
+![img](assets/2020-10-15-049-1024.webp)
+![img](assets/2020-10-15-050-1024.webp)
 
 Platform Server のインストール完了。
 
-![img](../assets/2020-10-15-051-1024.webp)
+![img](assets/2020-10-15-051-1024.webp)
 
 http://localhost/ServiceCenter が開ければ OK。
 
-![img](../assets/2020-10-15-052-1024.webp)
+![img](assets/2020-10-15-052-1024.webp)
 
 ただし、ライセンスが未登録のためまだ開発には使えない。
 
-![img](../assets/2020-10-15-053-1024.webp)
+![img](assets/2020-10-15-053-1024.webp)
 
 OutSystems がインターネット上の見える場所にトライアルのライセンスを[公開しているため](https://myfilerepo.blob.core.windows.net/sources/license.lic) そのライセンスファイルをダウンロード。
 
-![img](../assets/2020-10-15-054-1024.webp)
-![img](../assets/2020-10-15-055-1024.webp)
+![img](assets/2020-10-15-054-1024.webp)
+![img](assets/2020-10-15-055-1024.webp)
 
 ダウンロードしたライセンスあファイルをアップロードしてエラーが解消すれば環境のセットアップは完了。
 
-![img](../assets/2020-10-15-056-1024.webp)
+![img](assets/2020-10-15-056-1024.webp)
 
 ## 参考URL
 
