@@ -15,4 +15,3 @@ permalink: /about/
   - Podcast (Backspace.fm, rebuild.fm ...)
   - 写真(Nex-3N, Theta s)
   - ダーツ
-
