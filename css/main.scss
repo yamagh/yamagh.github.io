@@ -3,15 +3,13 @@
 ---
 @charset "utf-8";
 
-// http://www.rmimaging.com/projects/inks/inks.html
-$lamy_black:      #5c4d48;
-$lamy_blue:       #3d68b2;
-$lamy_blue_black: #686a60;
-$lamy_green:      #00a275;
-$lamy_red:        #ff5b59;
-$lamy_turquoise:  #0080b9;
-
-$theme_color: $lamy_green;
+// https://mycolor.space/?hex=%2300A275&sub=1
+// Classy Palette
+$theme-color: #00A275;
+$dark-green: #384B42;
+$light-green: #9AB0A6;
+$dark-blue: #0099E0;
+$light-blue: #0099E0;
 
 html {
   background-color: whitesmoke;
@@ -19,23 +17,26 @@ html {
 
 body {
   background-color: white;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro,YuGothic, '游ゴシック', Arial, "メイリオ", Meiryo, sans-serif;
+  line-height: 1.9;
+  letter-spacing: 1.5px;
 }
 
 body,div,ul,li {
-  color: $lamy_blue_black;
+  color: $dark-green;
 }
 
 a, a:focus, a:hover {
-  color: $theme_color;
+  color: $theme-color;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: $lamy_black;
+  color: $dark-green;
   font-weight: bold;
 }
 
 h1 {
-  color: $lamy_blue_black;
+  color: $dark-green;
   display: block;
   font-size: 2rem;
   letter-spacing: .1rem;
@@ -48,7 +49,7 @@ h1 {
 h1:after{
   width:145px;
   content: "";
-  border-bottom: 1px solid $theme_color;
+  border-bottom: 1px solid $theme-color;
   position: absolute;
   top:0;
   left: 0;
@@ -75,7 +76,7 @@ h3 {
 //  top: 0;
 //  bottom: 0;
 //  left: -2rem;
-//  border-left: 1px solid $theme_color;
+//  border-left: 1px solid $theme-color;
 //}
 
 img {
@@ -119,17 +120,17 @@ hr {
 
   .navbar-brand {
     background-color: white;
-    color: $lamy_blue_black;
+    color: $dark-green;
   }
   
   .navbar-nav li a {
-    color: $lamy_blue_black;
+    color: $dark-green;
   }
 }
 
 .navbar-default {
   .navbar-brand:hover, .navbar-nav>li>a:hover {
-    color: $theme_color;
+    color: $theme-color;
   }
 }
 
@@ -155,7 +156,7 @@ hr {
 }
 
 .posts-list-date {
-  color: silver;
+  color: $light-green;
 }
 
 .post-title {
@@ -182,7 +183,7 @@ hr {
 }
 
 code.highlighter-rouge {
-  color: $lamy_blue_black;
+  color: $dark-green;
   background-color: whitesmoke;
 }
 
