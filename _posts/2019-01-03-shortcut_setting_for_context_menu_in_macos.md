@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[macOS] Finder で圧縮をショートカットで実行"
+title:      "Finder から圧縮をショートカットで実行"
 date:       2019-01-03 18:26:17 +0900
 tags:       macOS
 categories:

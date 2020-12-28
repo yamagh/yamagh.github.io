@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[OutSystems] Aggregate で NullIdentifier() を使うときの注意点"
+title:      "Aggregate で NullIdentifier() を使うときの注意点"
 date:       2019-09-28 22:56:47 +0900
 tags:       OutSystems11
 categories: OutSystems
@@ -9,13 +9,12 @@ published:  true
 
 OutSystems の Aggregate の Filters に条件式を書くとき、同一の評価結果となるべき条件式を If の中に書くか、外に書くかで実行結果が変わる、という問題に遭遇したのでメモ。
 
-# tl;dr
+## tl;dr
 
 - Aggregate の中で NullIdentifier() = 0 と思って使わない。
 - NullIdentifier() と比較する時、データ型が本当に Identifier 型であることをよく確認する。
 
-
-# 問題の事象
+## 問題の事象
 
 まずは、Aggregate の２つの実行結果をご覧ください。  
 
@@ -30,9 +29,7 @@ OutSystems の Aggregate の Filters に条件式を書くとき、同一の評�
 ちなみに UserId は LongInteger で値は変数の初期値のままです（つまり `0` です）。  
 [OutSystems の NullIdentifier() Function のドキュメント](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Data_Conversion#NullIdentifier)を見ると、 `NullIdentifier() = 0` と記載があることから、`UserId = NullIdentifier()` は `0 = 0` で true となるべきのため、レコードが返ってこない２つ目の結果は期待する動作と異なることになります。
 
-
-
-# 原因と考察
+## 原因と考察
 
 ### ポイント１: 条件式を If の中に書くか外に書くか
 
@@ -65,11 +62,11 @@ WHERE (@UserId IS NOT NULL)
 
 ---
 
-##### 追記
+## 追記
 
 ここまで書いてから次の条件式で実行してみました。If を使っておらず、DBMS へ SQL を発行する前に評価可能なため、WHERE句には何も出力されないことを想像しましたが、実際は異なっていました。
 
-```
+```sql
 UserId = NullIdentifier() and 1=1
 ```
 
@@ -80,11 +77,10 @@ WHERE句に次のように出力されていますね...
 
 ```sql
 WHERE ((@UserId = 0)
-	AND (1 = 1))
+  AND (1 = 1))
 ```
 
 ということなので、If の中/外に限らず、SQL が変わる場合があるとだけ頭の隅おいておけば良いと思います。
-
 
 ### ポイント２: Aggregate の中の NullIdentifier()
 
@@ -116,11 +112,8 @@ WHERE (@UserId IS NOT NULL or @UserId <> 0)
 
 とはいえ開発者としては、この動作を変えることはできないため、受け入れて、Aggregate の中では NullIdentifier は 0 になったり NULL になったりする場合がある、と覚えておいたほうが良いでしょう。
 
-
-# 対処方法・まとめ
+## 対処方法・まとめ
 
 1. ポイント１で確認したように、Filters に書いた条件式がどこで（OutSystems 側／DBMS側のどちらか）で実行されているかは、時と場合によるため、うまく動かない時は Executed SQL をみて、意図した通りの SQL になっているか確認するのがベター。
 2. Aggregate の中で NullIdentifier() = 0 と思って使わない。
 3. NullIdentifier() と比較する時、データ型が本当に Identifier 型であることをよく確認する。
-
-

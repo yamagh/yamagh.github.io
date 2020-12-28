@@ -19,7 +19,7 @@ body {
   background-color: white;
   font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro,YuGothic, '游ゴシック', Arial, "メイリオ", Meiryo, sans-serif;
   line-height: 1.9;
-  letter-spacing: 1.5px;
+  letter-spacing: .1em;
 }
 
 body,div,ul,li {
@@ -38,8 +38,8 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
   color: $dark-green;
   display: block;
-  font-size: 2rem;
-  letter-spacing: .1rem;
+  font-size: 3rem;
+  letter-spacing: .2rem;
   margin: 100px 0;
   padding: 0;
   position: relative;
@@ -60,13 +60,30 @@ h1:after{
 
 h2 {
   margin: 60px 0 40px 0;
+  font-size: 2.5rem;
   line-height: 4rem;
   border-bottom: 1px dashed lightgray;
 }
 
 h3 {
   position: relative;
-  margin: 60px 0 40px 0;
+  margin: 30px 0 30px 0;
+  font-size: 2rem;
+}
+
+h4 {
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+}
+
+h5 {
+  margin: 0 0 10px 0;
+  font-size: 1.6rem;
+}
+
+h6 {
+  margin: 0 0 10px 0;
+  font-size: 1.4rem;
 }
 
 //h3:before {
@@ -179,7 +196,7 @@ hr {
 }
 
 .page-content,.post-content {
-  padding: 0 15px;
+  padding: 0 17px;
 }
 
 code.highlighter-rouge {
@@ -205,4 +222,3 @@ div[itemprop="articleBody"] > table th,
 div[itemprop="articleBody"] > table td {
   padding: 5px 20px;
 }
-
