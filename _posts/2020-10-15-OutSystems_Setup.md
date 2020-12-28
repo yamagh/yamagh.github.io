@@ -4,7 +4,7 @@ title:      "OutSystems Setup"
 date:       2020-10-15 23:36:08 +0900
 tags:       OutSystems Setup
 categories: 
-published: true
+published: false
 ---
 
 OutSystems の事を詳しく知ろうと思うと、自由にサワれる環境が欲しくなってくるものですが、環境構築手順に関する情報があまりないので書いてみたいと思います。今回は開発者がお試し用として使える環境を１から作ることを前提として Windows Server のインストールからやってみます。開発者がローカルで動かせるだけの環境を作るので細かい設定は特に行いません。
